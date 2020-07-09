@@ -1,0 +1,133 @@
+.hero {
+  min-height: 50vh;
+  background-image: url(herobg.jpg);
+  background-position: center;
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel-item {
+  height: 500px;
+}
+.carousel-item img {
+  height: 500px;
+}
+
+.hero-tagline {
+  font-size: 3rem;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg-primary {
+  background-color: red;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .hero-tagline {
+    font-size: 5rem;
+  }
+
+  #footer-links-container ul {
+    list-style-type: none;
+    padding-left: 30px !important;
+  }
+}
+
+.hero-content {
+  font-size: 2rem;
+}
+
+.intro-icon {
+  font-size: 15rem;
+  margin: 0px auto;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("pray_blackbg.jpg");
+
+  /* Set a specific height */
+  height: 150;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  letter-spacing: 6px;
+  color: rgb(255, 255, 255);
+  line-height: 400%;
+  opacity: 1;
+  font-size: 150%;
+}
+
+#deception {
+  padding-left: 10%;
+}
+
+.navbar-custom {
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar-tcolor {
+  color: rgb(172, 0, 0);
+}
+
+#footer-links-container ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#footer-links-container ul > :first-child {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+#nav-link a {
+  color: red;
+}
+
+.swiper-button-next {
+  /* required styles */
+  color: rgb(0, 0, 0);
+}
+
+.swiper-button-prev {
+  /* required styles */
+  color: rgb(0, 0, 0);
+}
