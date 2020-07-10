@@ -1,10 +1,55 @@
 .hero {
-  min-height: 50vh;
+  min-height: 75vh;
   background-image: url(herobg.jpg);
   background-position: center;
   background-size: contain;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.myaccordion {
+  max-width: 500px;
+  margin: 50px auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.myaccordion .card,
+.myaccordion .card:last-child .card-header {
+  border: none;
+  background-color: black;
+}
+
+.myaccordion .card-header {
+  border-bottom-color: #00aaff;
+  background-color: rgb(0, 0, 0);
+}
+
+.myaccordion .fa-stack {
+  font-size: 18px;
+}
+
+.myaccordion .btn {
+  width: 100%;
+  font-weight: bold;
+  color: #0088ff;
+  padding: 0;
+}
+
+.myaccordion .btn-link:hover,
+.myaccordion .btn-link:focus {
+  text-decoration: none;
+}
+
+.myaccordion li + li {
+  margin-top: 10px;
+}
+
+.normal {
+  filter: invert(0%);
+}
+
+.inverted {
+  filter: invert(100%);
 }
 
 .carousel-item {
@@ -73,6 +118,10 @@ body {
   background-color: rgb(0, 0, 0);
 }
 
+.text_shadow {
+  text-shadow: 5px 3px #0275d8;
+}
+
 .parallax {
   /* The image used */
   background-image: url("pray_blackbg.jpg");
@@ -110,6 +159,7 @@ h1 {
 #footer-links-container ul {
   list-style-type: none;
   padding-left: 0px;
+  padding-left: 1rem;
 }
 
 #footer-links-container ul > :first-child {
@@ -130,4 +180,16 @@ h1 {
 .swiper-button-prev {
   /* required styles */
   color: rgb(0, 0, 0);
+}
+
+.blue-color {
+  color: #75a3ff;
+}
+
+.bg-blue {
+  background-color: #0275d8;
+}
+
+.black_color {
+  color: black;
 }
